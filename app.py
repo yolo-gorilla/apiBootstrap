@@ -7,7 +7,7 @@ from  helpers.api import *
 
 
 #configs pulled from config.py 
-apiKEY
+# apiKEY
 
 
 app = Flask(__name__)
