@@ -25,7 +25,7 @@ def test():
 
 # test function 
 @app.route('/api/ping', methods=['GET', 'POST'])
-def set_email():
+def test_api():
     if request.method == 'GET':
         return generateResponse("Succsess", "GET- PONG")
     elif request.method == 'POST':
